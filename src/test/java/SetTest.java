@@ -23,7 +23,7 @@ public class SetTest {
 
     @Test
     void size() {
-        assertThat(number.size()).isEqualTo(3);
+        assertThat(number).hasSize(3);
     }
 
     @ParameterizedTest
